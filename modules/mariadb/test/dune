@@ -1,0 +1,7 @@
+(test
+ (name test_mariadb_runner)
+ (package testcontainers-mariadb)
+ (modules test_mariadb_runner test_mariadb)
+ (libraries testcontainers-mariadb alcotest alcotest-lwt lwt lwt.unix)
+ (preprocess
+  (pps lwt_ppx)))

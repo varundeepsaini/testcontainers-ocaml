@@ -20,6 +20,7 @@
 
 - [PostgreSQL](./modules/postgres.md)
 - [MySQL](./modules/mysql.md)
+- [MariaDB](./modules/mariadb.md)
 - [MongoDB](./modules/mongodb.md)
 - [Redis](./modules/redis.md)
 - [RabbitMQ](./modules/rabbitmq.md)

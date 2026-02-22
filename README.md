@@ -40,6 +40,7 @@ dune exec examples/basic_example.exe
 dune exec examples/postgres_example.exe
 dune exec examples/redis_example.exe
 dune exec examples/mysql_example.exe
+dune exec examples/mariadb_example.exe
 dune exec examples/mongo_example.exe
 dune exec examples/kafka_example.exe
 dune exec examples/elasticsearch_example.exe
@@ -54,6 +55,7 @@ dune exec examples/mockserver_example.exe
 |--------|---------|-------------|
 | PostgreSQL | `testcontainers-postgres` | PostgreSQL database |
 | MySQL | `testcontainers-mysql` | MySQL database |
+| MariaDB | `testcontainers-mariadb` | MariaDB database |
 | MongoDB | `testcontainers-mongo` | MongoDB database |
 | Redis | `testcontainers-redis` | Redis cache |
 | RabbitMQ | `testcontainers-rabbitmq` | RabbitMQ message broker |

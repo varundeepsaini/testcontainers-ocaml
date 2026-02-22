@@ -1,3 +1,9 @@
+## Unreleased
+
+### Added
+
+- Added `testcontainers-mariadb` module with package, docs, example, and tests
+
 ## 0.1.1 (2026-02-05)
 
 ### Fixed

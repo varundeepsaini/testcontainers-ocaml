@@ -215,13 +215,12 @@ Wait_strategy.for_log ~occurrence:2 "ready for connections"
 
 ## MySQL vs MariaDB
 
-For MariaDB, use the same module with a different image:
+Use this module for MySQL-specific behavior and images. For MariaDB, prefer the dedicated MariaDB module:
 
 ```ocaml
-Mysql_container.with_mysql
-  ~config:(fun c -> c
-    |> Mysql_container.with_image "mariadb:11")
-  (fun container conn_str -> ...)
+open Testcontainers_mariadb
+
+Mariadb_container.with_mariadb (fun container conn_str -> ...)
 ```
 
 ## Troubleshooting

@@ -81,6 +81,16 @@
   (alcotest-lwt (and :with-test (>= 1.7.0)))))
 
 (package
+ (name testcontainers-mariadb)
+ (synopsis "MariaDB module for testcontainers")
+ (description "MariaDB container module for testcontainers-ocaml")
+ (depends
+  (testcontainers (= :version))
+  (lwt_ppx (>= 2.1.0))
+  (alcotest (and :with-test (>= 1.7.0)))
+  (alcotest-lwt (and :with-test (>= 1.7.0)))))
+
+(package
  (name testcontainers-mongo)
  (synopsis "MongoDB module for testcontainers")
  (description "MongoDB container module for testcontainers-ocaml")

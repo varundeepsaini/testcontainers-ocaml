@@ -53,7 +53,7 @@ The container starts automatically, waits until PostgreSQL is ready to accept co
 | **Wait Strategies** | Port, log, HTTP, exec, and health check waiting |
 | **Networks** | Isolated Docker networks for multi-container tests |
 | **File Operations** | Copy files to and from containers |
-| **Pre-built Modules** | PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ |
+| **Pre-built Modules** | PostgreSQL, MySQL, MariaDB, MongoDB, Redis, RabbitMQ |
 
 ## Architecture
 

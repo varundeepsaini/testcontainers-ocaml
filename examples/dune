@@ -4,6 +4,7 @@
   redis_example
   basic_example
   mysql_example
+  mariadb_example
   mongo_example
   kafka_example
   elasticsearch_example
@@ -15,6 +16,7 @@
   testcontainers-postgres
   testcontainers-redis
   testcontainers-mysql
+  testcontainers-mariadb
   testcontainers-mongo
   testcontainers-kafka
   testcontainers-elasticsearch
